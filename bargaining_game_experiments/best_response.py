@@ -383,8 +383,6 @@ def dqn_br_player_1(meta_strategy, mss_type, file_ID, pool, val_dist, outside_of
 	trials = int(num_training_steps)
 	trial_len = 500
 
-	#eval_over_time = []
-
 	# # represent state features via one-hot encoding
 	state_len = get_state_length(pool)
 

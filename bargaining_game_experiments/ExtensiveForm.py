@@ -76,7 +76,7 @@ class ExtensiveForm:
 			if current.player_id == 0:
 				event_map = self.get_prob_dist_given_chance_map(current)
 				if event_map.get(h) == 0.0:
-					return 0.0s
+					return 0.0
 				reach_prob *= event_map.get(h)
 
 			else:
