@@ -8,6 +8,8 @@ import gc
 import shutil
 import sys
 import json
+import argparse
+
 from Node import *
 from Infoset import *
 from ExtensiveForm import *
@@ -1486,12 +1488,20 @@ def te_egta(game_param_map, T, trial_index, br_mss, eval_strat):
 	del mgame['game']
 	mgame.vacuum()
 
-file_ID_index = int(sys.argv[1]) // 5
-trial_index = int(sys.argv[1]) % 5
-br_index = int(sys.argv[2])
-file_ID = file_ID_list[file_ID_index]
+parser = argparse.ArgumentParser()
+parser.add_argument("game_trial_index")
+parser.add_argument("num_br_index")
+parser.add_argument("mss")
+parser.add_argument("eval")
+args = parser.parse_args()
 
+file_ID_index = int(args.game_trial_index) // 5
+file_ID = file_ID_list[file_ID_index]
+trial_index = int(args.game_trial_index) % 5
+
+br_index = int(args.num_br_index)
 NUM_EMPIR_BR = emp_br_list[br_index]
+
 game_params = retrieve_game(file_ID_list[file_ID_index])
 game_param_map = {
 	"file_ID": game_params[0],
@@ -1503,4 +1513,4 @@ game_param_map = {
 	"o2_pay": game_params[6]
 }
 
-te_egta(game_param_map, T, trial_index, br_mss="SPE", eval_strat="NE")
+te_egta(game_param_map, T, trial_index, br_mss=args.mss.upper(), eval_strat=args.eval.upper())

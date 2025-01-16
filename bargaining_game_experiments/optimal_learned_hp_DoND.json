@@ -1,0 +1,271 @@
+{"0": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"1": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"2": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"3": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"4": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"5": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"6": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"7": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"8": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"9": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"10": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"11": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"12": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"13": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	},
+"14": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.0001],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.02]}
+	}
+}
