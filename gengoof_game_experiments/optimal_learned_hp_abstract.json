@@ -1,0 +1,73 @@
+{"4": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [50000.0],
+		"learning_rate": [0.0005],
+		"update_target": [5],
+		"gamma": [0.99],
+		"model_width": [200],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["exp"],
+		"training_steps": [60000.0],
+		"learning_rate": [0.001],
+		"update_target": [5],
+		"gamma": [0.99],
+		"model_width": [50],
+		"epsilon_min": [0.05]}
+	},
+"5": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [100000.0],
+		"learning_rate": [0.001],
+		"update_target": [2],
+		"gamma": [0.95],
+		"model_width": [100],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [80000.0],
+		"learning_rate": [0.003],
+		"update_target": [2],
+		"gamma": [0.99],
+		"model_width": [100],
+		"epsilon_min": [0.05]}
+	},
+"6": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [150000.0],
+		"learning_rate": [0.003],
+		"update_target": [1],
+		"gamma": [0.99],
+		"model_width": [200],
+		"epsilon_min": [0.05]},
+	"2": {
+		"epsilon_annealing": ["exp"],
+		"training_steps": [750000.0],
+		"learning_rate": [0.0001],
+		"update_target": [5],
+		"gamma": [0.95],
+		"model_width": [50],
+		"epsilon_min": [0.02]}
+	},
+"8": {
+	"1": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [750000.0],
+		"learning_rate": [0.001],
+		"update_target": [1],
+		"gamma": [0.95],
+		"model_width": [200],
+		"epsilon_min": [0.02]},
+	"2": {
+		"epsilon_annealing": ["linear"],
+		"training_steps": [750000.0],
+		"learning_rate": [0.0003],
+		"update_target": [5],
+		"gamma": [0.99],
+		"model_width": [200],
+		"epsilon_min": [0.05]}
+	}
+}

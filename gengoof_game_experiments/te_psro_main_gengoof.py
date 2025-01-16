@@ -8,6 +8,7 @@ import gc
 import shutil
 import sys
 import json
+import argparse
 from Node import *
 from Infoset import *
 from ExtensiveForm import *
@@ -60,7 +61,7 @@ file_ID_list = {
 'abstract_4_0_TDJN0', 
 'abstract_4_1_V2UHF', 
 'abstract_4_2_MYP70'
-]
+]}
 
 T_list = [
 500, 
@@ -1193,18 +1194,27 @@ def te_egta(game_param_map, T, trial_index, br_mss, eval_strat):
 	del mgame['game']
 	mgame.vacuum()
 
-file_ID_index = int(sys.argv[1]) // 9
-trial_index = int(sys.argv[1]) % 3
-br_index = int(sys.argv[2])
+parser = argparse.ArgumentParser()
+parser.add_argument("game_trial_index")
+parser.add_argument("num_br_index")
+parser.add_argument("num_rounds_index")
+parser.add_argument("mss")
+parser.add_argument("eval")
+args = parser.parse_args()
+
+file_ID_index = int(args.game_trial_index) // 9
+trial_index = int(args.game_trial_index) % 3
+
+br_index = int(args.num_br_index)
 NUM_EMPIR_BR = emp_br_list[br_index]
 
-rounds_index = int(sys.argv[3])
+rounds_index = int(args.num_rounds_index)
 NUM_ROUNDS = num_rounds_list[rounds_index]
-included_rounds_index = int(sys.argv[1]) // 15
+
+included_rounds_index = int(args.game_trial_index) // 15
 included_rounds = [i for i in range(included_rounds_index + 1)]
 
 game_params = retrieve_game(file_ID_list.get(NUM_ROUNDS)[file_ID_index], NUM_ROUNDS)
-
 game_param_map = {
 	"file_ID": game_params[0],
 	"num_rounds": game_params[1],
@@ -1216,4 +1226,4 @@ game_param_map = {
 	"included_rounds": included_rounds
 }
 
-te_egta(game_param_map, T, trial_index, br_mss="SPE", eval_strat="SPE")
+te_egta(game_param_map, T, trial_index, br_mss=args.mss.upper(), eval_strat=args.eval.upper())
